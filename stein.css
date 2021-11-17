@@ -1,0 +1,42 @@
+div{
+    margin-left: 10px;
+}
+
+#Bild{
+display:none }
+
+#Bild2{
+    display: none;
+}
+
+#Bild3{
+    display: none;
+}
+
+.Motherbox{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: ;
+}
+
+#Ausgabe{
+    display: flex;
+    justify-content: end;
+}
+
+#Ergebnis{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -300px;
+    font-size: 100px;
+    background-color: ;
+    
+}
+
+#restart{
+    position: relative;
+    top: 0px;
+}
+
