@@ -1,0 +1,67 @@
+/*Klassenselector*/
+
+.erstens{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zweitens{
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zweitens22{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zweitens2{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+
+.li{
+    display: inline-block;
+    align-items: center;
+
+}
+
+.abs{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+}
+
+.L2{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+
+/*Psaudonymklassen*/
+
+.L2:hover{
+    background-color: black;
+    cursor: pointer;
+}

@@ -75,6 +75,6 @@ function playerClickedrestart(){
 }
 
 
-
+//es funktioniert
 //randomzahlen müssen deffiniert groß sein
 //bilder müssen aus dem html rausgeholt werden und im css verstekt werden mit display none

@@ -1,0 +1,66 @@
+/*klassenselector */
+
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.headerlinks{
+    display: inline;
+    justify-content: space-between;
+}
+
+li{
+    color: black;
+    margin-right: 80px;
+    display: inline-block;
+    align-items: center;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    position: relative;
+    display: none;
+    margin: 5px;
+    background-color: whitesmoke;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown{
+    width: 255px;
+    height: 20px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.fixe{
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+.ka{
+    display: inline-block;
+    align-items: row;
+}
+
+.jea{
+    display: inline-block;
+    align-items: row;
+}
+
+.jop{
+    display: inline-block;
+    align-items: row;
+}

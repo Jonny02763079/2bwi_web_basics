@@ -1,0 +1,147 @@
+/*klassenselector */
+h1 {
+    background-color: blueviolet;
+}
+
+li {
+    background-color: aqua;
+    color: crimson;
+}
+
+a {
+    background-color: aqua;
+    color: crimson;
+}
+
+details {
+    background-color: brown;
+}
+
+h1 {
+    position: relative;
+    padding: 10px;
+    padding-left: 50%
+}
+
+li {
+    position: ;
+}
+.cool{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    
+}
+
+.fix{
+    position: relative;
+    padding-left: 50%;
+    width: 100%;
+    border-style: solid;
+    position: sticky;
+    z-index: 1000;
+    top: 0%;
+    width: 50%;
+    background-color: aqua;
+    color: crimson;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    position: absolute;
+    padding-left: 50%;
+    font-size: 150%;
+}
+
+.details{
+    color: aqua;
+    font-size: 200%;
+    padding-left: 50%;
+}
+
+.lost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail{
+    color: aqua;
+    font-size: 200%;
+    padding-left: 50%;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detaill{
+    color: aqua;
+    font-size: 200%;
+    padding-left: 50%;
+}
+
+.tool{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deatail{
+    color: aqua;
+    font-size: 200%;
+    padding-left: 50%;
+}
+
+.dropdown-content {
+    display: none;
+    margin: 5px;
+    position: absolute;
+    background-color: #c51212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+    border-style: solid;
+
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    position: absolute;
+    border-style: solid;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.dropdown-conten{
+    display: none;
+    margin: 5px;
+    position: absolute;
+    background-color: #c51212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+    border-style: solid;
+}
